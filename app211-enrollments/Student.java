@@ -5,7 +5,7 @@
  * 
  * @author Michael Kölling and David Barnes
  * @modified by Leighton Burgoyne
- * @version v1.0
+ * @version 2.0 01/10/2021
  */
 public class Student
 {
