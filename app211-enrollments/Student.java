@@ -4,8 +4,8 @@
  * concerning the course the student is currently enrolled on
  * 
  * @author Michael Kölling and David Barnes
- * @modified by Derek Peacock and Nicholas Day
- * @version 2021:08:15
+ * @modified by Leighton Burgoyne
+ * @version v1.0
  */
 public class Student
 {
