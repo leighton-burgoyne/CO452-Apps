@@ -1,14 +1,21 @@
 
 /**
- * Write a description of class Module here.
+ * The Module Class includes a variety of information on the Modules and 
+ * Individual Topics, which are associated with a specific course; this
+ * includes the Module Code (Identifier), Module Title, and the Credits
+ * Value associated with the specific Module.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Leighton Burgoyne
+ * @version 1.0 04/10/2021
  */
 public class Module
 {
-    // instance variables - replace the example below with your own
-    private int x;
+    // A unique identifier for the Module
+    private int moduleCode; 
+    // The name for the Module
+    private String moduleTitle;
+    // The credit value specified for the Module
+    private int moduleValue;
 
     /**
      * Constructor for objects of class Module
