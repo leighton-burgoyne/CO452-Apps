@@ -6,35 +6,94 @@
  * Value associated with the specific Module.
  *
  * @author Leighton Burgoyne
- * @version 1.0 04/10/2021
+ * @version 1.0 08/10/2021
  */
 public class Module
 {
+    private int x;
     // A unique identifier for the Module
-    private int moduleCode; 
+    private String code; 
     // The name for the Module
-    private String moduleTitle;
-    // The credit value specified for the Module
-    private int moduleValue;
+    private String title;
+    // The credit value for the Module
+    private int credit;
 
     /**
      * Constructor for objects of class Module
+     * 
+     * @param String code
+     * @param String title
      */
-    public Module()
+    public Module(String code, String title)
     {
-        // initialise instance variables
-        x = 0;
+        // Initialise variables, and set parameters
+        this.code = code;
+        this.title = title;
+        credit = 0;
     }
 
     /**
-     * An example of a method - replace this comment with your own
+     * This method will return the value of 'code'
      *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
+     * @param
+     * @return code
      */
-    public int sampleMethod(int y)
+    public String getCode()
     {
-        // put your code here
-        return x + y;
+        // Return code
+        return this.code;
     }
+    
+    /**
+     * This method will return the value of 'title'
+     *
+     * @param
+     * @return title
+     */
+
+        public String getTitle()
+    {
+        // Return title
+        return this.title;
+    }
+    
+    /**
+     * This method will return the value of 'credit'
+     *
+     * @param
+     * @return credit
+     */
+
+        public int getCredit()
+    {
+        // Return credit
+        return this.credit;
+    }
+    
+    /**
+     * This method will set the value of credit
+     * 
+     * @param int credit
+     * @return credit
+     */
+    
+    public void setCredit(int credit)
+    {
+        this.credit = credit;
+    }
+    
+    /**
+     * Print out the Module Details
+     *
+     * @param
+     * @return 
+     */
+    
+    public void printModule()
+    {
+        System.out.println("Module Code: " + code + ": " + title);
+        System.out.println();
+    }
+    
+    
 }
