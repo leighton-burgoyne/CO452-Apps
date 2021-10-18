@@ -1,2 +1,27 @@
-TO BE UPLOADED
-// 08/10/2021
+module.printModule();
+Module: CO452 - Programming Concepts
+Credits Value: 0
+module.setmoduleCredit(15);
+module.printModule();
+Module: CO452 - Programming Concepts
+Credits Value: 15
+computing.print();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BT1CTG1: BSc Computing
+
+Modules: 
+    Exception occurred.
+computing.assignModule(module);
+computing.print();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BT1CTG1: BSc Computing
+
+Modules: 
+Module: CO452 - Programming Concepts
+Credits Value: 15
