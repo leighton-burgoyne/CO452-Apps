@@ -35,7 +35,6 @@ public class Module
     /**
      * This method will return the value of 'code'
      *
-     * @param
      * @return code
      */
     public String getCode()
@@ -47,7 +46,6 @@ public class Module
     /**
      * This method will return the value of 'title'
      *
-     * @param
      * @return title
      */
 
@@ -84,9 +82,6 @@ public class Module
     
     /**
      * Print out the Module Details
-     *
-     * @param
-     * @return 
      */
     
     public void printModule()
