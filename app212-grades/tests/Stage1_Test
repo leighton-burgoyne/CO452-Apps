@@ -1,0 +1,32 @@
+Student leighton = new Student("Leighton Burgoyne", 22045432);
+leighton.print();
+ Student ID: 22045432, Leighton Burgoyne
+Course computing = new Course("BT1CTG1", "BSc Computing");
+leighton.enrol(computing);
+leighton.printCourse();
+ Student ID: 22045432, Leighton Burgoyne
+
+ Course BT1CTG1: BSc Computing
+
+Module co452 = new Module("CO452", "Programming Concepts");
+computing.addModule(co452);
+ModuleMark leightonCo452Mark = new ModuleMark(co452);
+leightonCo452Mark.setMark(15);
+leighton.addMark(leightonCo452Mark);
+leighton.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 22045432, Leighton Burgoyne
+
+ Course BT1CTG1: BSc Computing
+
+
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+
+ No Final Course Grade Yet!
