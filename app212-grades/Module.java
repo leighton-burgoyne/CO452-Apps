@@ -4,7 +4,8 @@
  * pass the module with a mark of 40+
  *
  * @author Derek Peacock and Nicholas Day
- * @version 1.0 17/07/2021
+ * @author Modified by Leighton Burgoyne
+ * @version 2.0 26/10/2021
  */
 public class Module
 {
@@ -15,8 +16,11 @@ public class Module
     private String title;
 
     /**
-     * Constructor for objects of class Module 
-     * which initialises the module code and title
+     * Constructor for objects of class Module which initialises 
+     * the module code and title
+     * 
+     * @param String code
+     * @param String title
      */
     public Module(String code, String title)
     {
@@ -24,13 +28,21 @@ public class Module
         this.title = title;
     }
 
-   
+   /**
+    * Gets the Code of a Module
+    * 
+    * @return code
+    */
     public String getCode()
     {
         return code;
     }
     
-    
+    /**
+    * Gets the Title of a Module
+    * 
+    * @return title
+    */
     public String getTitle()
     {
         return title;
@@ -44,7 +56,7 @@ public class Module
     public void print()
     {
         System.out.println();
-        System.out.print(" " + code + ": " + "\t" + title);
+        System.out.print(" " + code + ": " + title);
     }
     
     /**

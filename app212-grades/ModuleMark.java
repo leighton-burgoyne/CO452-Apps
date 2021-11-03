@@ -3,7 +3,8 @@
  * Write a description of class ModuleMark here.
  *
  * @author Derek Peacock and Nicholas Day
- * @version 2021-08-18
+ * @author Modified by Leighton Burgoyne
+ * @version 2.0 26/10/2021
  */
 public class ModuleMark
 {
@@ -12,6 +13,8 @@ public class ModuleMark
     
     /**
      * Constructor for objects of class ModuleMark
+     * 
+     * @param Module module
      */
     public ModuleMark(Module module)
     {
@@ -19,14 +22,21 @@ public class ModuleMark
         this.module = module;
     }
     
+    /**
+     * Retrieves the Value of a ModuleMark by returning the mark within it to the user
+     * 
+     * @return mark
+     */
     public int getValue()
     {
         return mark;
     }
     
     /**
-     * If the mark is 40% or more then the 
-     * student is awarded the module's credit.
+     * If the mark is 40% or more then the student is awarded the module's credit.
+     * 
+     * @return 0
+     * @return Module.CREDIT
      */
     public int getCredit()
     {
@@ -45,14 +55,18 @@ public class ModuleMark
         this.mark = mark;
     }
     
+    /**
+     * Retrieves the Module Information
+     * 
+     * @return module
+     */
     public Module getModule()
     {
         return module;
     }
     
     /**
-     * Print the module details and any credit
-     * that has been awarded.
+     * Print the module details and any credit that has been awarded.
      */
     public void print()
     {
