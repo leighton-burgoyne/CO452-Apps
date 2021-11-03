@@ -1,0 +1,41 @@
+Student leighton = new Student();
+Course computing = new Course();
+leighton.enrol(computing);
+leighton.printCourse();
+ Student ID: 22045432, Leighton Burgoyne
+
+ Course BT1CTG1: BSc Computing
+Course Modules:
+
+ CO450: Computer Architectures	  15 credits
+ CO452: Programming Concepts  	  15 credits
+ CO454: Digital Technologies  	  15 credits
+ CO456: Website Development   	  15 creditsleighton.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by Leighton Burgoyne
+ ------------------------------------
+ Student ID: 22045432, Leighton Burgoyne
+
+ Course BT1CTG1: BSc Computing
+Course Modules:
+
+ CO450: Computer Architectures	  15 credits
+ CO452: Programming Concepts  	  15 credits
+ CO454: Digital Technologies  	  15 credits
+ CO456: Website Development   	  15 credits
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ CO450: Computer Architectures	  15	96	A
+
+ CO452: Programming Concepts  	  0	32	F
+
+ CO454: Digital Technologies  	  0	39	F
+
+ CO456: Website Development   	  15	69	B
+
+
+ Final Course Grade = C
