@@ -1,8 +1,12 @@
 # CO452 Application Template 2021
 This template is based on Java application described in the book *Objects First with Java: A Practical Introduction Using BlueJ* Version 6 Java and contains starting Projects for BNU CO452 students and the wiki contains details on the marking scheme and the features required for assessment applications.
 [Goto the Wiki](https://github.com/BNU-CO452/BlueJ-Apps/wiki)
+
+# Completed Projects
+App21-1: Student Enrolments
+App21-2: Student Grades
+
 # What is GitHub
-Please watch this very short video
 [What is GitHub](https://www.youtube.com/watch?v=w3jLJU7DT5E#action=share&ab_channel=GitHub)   
 # GitHub Desktop
 The requirements for those applications and full details of how they will be assessed can be found in [this repositories Wiki](https://github.com/BNU-CO452/BlueJ-Apps/wiki)
