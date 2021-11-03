@@ -3,8 +3,8 @@ This template is based on Java application described in the book *Objects First 
 [Goto the Wiki](https://github.com/BNU-CO452/BlueJ-Apps/wiki)
 
 # Completed Projects
-App21-1: Student Enrolments
-App21-2: Student Grades
+- App21-1: Student Enrolments
+- App21-2: Student Grades
 
 # What is GitHub
 [What is GitHub](https://www.youtube.com/watch?v=w3jLJU7DT5E#action=share&ab_channel=GitHub)   
