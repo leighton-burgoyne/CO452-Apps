@@ -23,9 +23,17 @@ public class StockDemo
         // Add at least 10 products, they must be unique to you
         // Make sure the ids are sequential numbers
         
-        stock.add(new Product(101, "Samsung Galaxy S20"));
-        stock.add(new Product(102, "Apple iPhone 12"));
-        stock.add(new Product(103, "Google Pixel 4A"));
+        stock.add(new Product(101, "Steelseries Apex Keyboard"));
+        stock.add(new Product(102, "Airpods Pro with Charging Case"));
+        stock.add(new Product(103, "32GB SanDisk USB Drive"));
+        stock.add(new Product(104, "Razer Gaming Mouse"));
+        stock.add(new Product(105, "iPhone 13 Pro Max 256GB"));
+        stock.add(new Product(106, "Google Pixel 6 Pro 128GB"));
+        stock.add(new Product(107, "Lenovo Gaming Laptop Ryzen 5 8GB RAM 256GB SSD"));
+        stock.add(new Product(108, "Dell 27 Inch Monitor 1920x1080 60Hz"));
+        stock.add(new Product(109, "USB-C Charging Cable 2M"));
+        stock.add(new Product(110, "Apple Lightning Cable 1M"));
+    
     }
     
     /**
