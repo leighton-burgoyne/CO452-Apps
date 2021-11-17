@@ -1,11 +1,13 @@
+//42:12  on the video
+
 import java.util.ArrayList;
 
 /**
  * Manage the stock in a business.
  * The stock is described by zero or more Products.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Leighton Burgoyne
+ * @version v1.0 10/11/2021
  */
 public class StockList
 {
@@ -46,6 +48,11 @@ public class StockList
      */
     public void buyProduct(int productID, int amount)
     {
+        Product product = findProduct(productID);
+        if(product != null)
+            product.increaseQuantity(amount); 
+        else
+            System.out.println("ERROR: Cannot find Product");
     }
     
     /**
@@ -54,16 +61,27 @@ public class StockList
      */
     public Product findProduct(int productID)
     {
+        for(Product product : stock)
+        {
+            if(product.getID() == productID)
+                return product;
+        }
         return null;
     }
-    
-    
+    /** Sell one of the given product.
+     *  Show the before and after status of the product
+     *  @param id The ID of the product being sold.
+     */
+    public void sellProduct(int productID)
+    {
+        sellProduct(productID, 1);
+    }
     /**
-     * Sell one of the given product.
+     * Sell many of the given product.
      * Show the before and after status of the product.
      * @param id The ID of the product being sold.
      */
-    public void sellProduct(int productID)
+    public void sellProduct(int productID, int amount)
     {
         Product product = findProduct(productID);
         
@@ -71,18 +89,18 @@ public class StockList
         {
             if(product.getQuantity() > 0)
             {
-                product.decreaseQuantity(1);
-                
-                // printout message
+                product.decreaseQuantity(amount);
+                System.out.println("Sold " + amount + " of Product: " + product.getName());
             }
             else
             {
-                // printout message
+                System.out.println("The Product: " + product.getName() + 
+                "is out of stock");
             }
         }
         else
         {
-            // printout message
+            System.out.println("ERROR: Cannot find product");
         }
     }    
 

@@ -16,9 +16,9 @@ public class StockDemo
      * Create a StockManager and populate it with at least
      * 10 sample products.
      */
-    public StockDemo(StockList stock)
+    public StockDemo()
     {
-        this.stock = stock;
+        this.stock = new StockList();
         
         // Add at least 10 products, they must be unique to you
         // Make sure the ids are sequential numbers
@@ -33,7 +33,8 @@ public class StockDemo
         stock.add(new Product(108, "Dell 27 Inch Monitor 1920x1080 60Hz"));
         stock.add(new Product(109, "USB-C Charging Cable 2M"));
         stock.add(new Product(110, "Apple Lightning Cable 1M"));
-    
+        
+        runDemo(); // Runs the Demo Function
     }
     
     /**
@@ -49,18 +50,21 @@ public class StockDemo
         
         stock.print();
 
-        buyProducts();
-        stock.print();        
+        buyProducts(); // Buy Products Function
+        stock.print(); // Print the Stock List
 
-        sellProducts();
-        stock.print();        
+        sellProducts(); // Sell Products Function
+        stock.print(); // Print the Stock List        
     }
     
     private void buyProducts()
+    
     {
+        stock.buyProduct(101, 500); // Buy Product 101 as 500
     }
 
     private void sellProducts()
     {
+        // sellProducts()
     }    
 }
