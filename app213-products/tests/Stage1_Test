@@ -1,0 +1,26 @@
+Product airpodsPro = new Product(101, "Apple AirPods Pro");
+airpodsPro.print();
+ ID 101: Apple AirPods Pro stock level: 0
+airpodsPro.decreaseQuantity(1);
+airpodsPro.print();
+ ID 101: Apple AirPods Pro stock level: 0
+airpodsPro.increaseQuantity(10);
+airpodsPro.print();
+ ID 101: Apple AirPods Pro stock level: 10
+airpodsPro.decreaseQuantity(5);
+airpodsPro.print();
+ ID 101: Apple AirPods Pro stock level: 5
+Product lightningCable = new Product(102, "Lightning Cable 2M");
+lightningCable.print();
+ ID 102: Lightning Cable 2M stock level: 0
+StockList leightonStockList = new StockList();
+leightonStockList.add(airpodsPro);
+leightonStockList.add(lightningCable);
+leightonStockList.print();
+
+ Leighton's Tech Stock List
+ ====================
+
+ ID 101: Apple AirPods Pro stock level: 5
+ ID 102: Lightning Cable 2M stock level: 0
+
