@@ -1,5 +1,3 @@
-//42:12  on the video
-
 import java.util.ArrayList;
 
 /**
@@ -49,25 +47,43 @@ public class StockList
     public void buyProduct(int productID, int amount)
     {
         Product product = findProduct(productID);
-        if(product != null)
-            product.increaseQuantity(amount); 
+        
+        if(product != null) // Check to see whether the product exists (is not null)
+        {
+            if(product.getQuantity() < 500) // Validates whether the stock is within the limit
+            {
+                product.increaseQuantity(amount);
+                System.out.println("Bought " + amount + " of Product: " + product.getName());
+            }
+            else if(product.getQuantity() > 500) // Validates the Stock Level
+            {
+                System.out.println("ERROR: Unable to buy " + amount + " of " 
+                + product + " because it exceeds the maximum quantity of 500");
+            }
+        }
         else
-            System.out.println("ERROR: Cannot find Product");
+        {
+            System.out.println("ERROR: Cannot find product");
+        }
     }
-    
+
     /**
      * Find a product to match the product id,
      * if not found return null
      */
     public Product findProduct(int productID)
     {
-        for(Product product : stock)
+    for(Product product : stock)
+    {
+        if(product.getID() == productID)
         {
-            if(product.getID() == productID)
-                return product;
+            return product;
         }
-        return null;
+
     }
+    return null;
+    }
+    
     /** Sell one of the given product.
      *  Show the before and after status of the product
      *  @param id The ID of the product being sold.
@@ -76,6 +92,7 @@ public class StockList
     {
         sellProduct(productID, 1);
     }
+    
     /**
      * Sell many of the given product.
      * Show the before and after status of the product.
@@ -87,15 +104,21 @@ public class StockList
         
         if(product != null) 
         {
-            if(product.getQuantity() > 0)
+            if(product.getQuantity() > 0 && product.getQuantity() >= amount)
             {
                 product.decreaseQuantity(amount);
                 System.out.println("Sold " + amount + " of Product: " + product.getName());
             }
+            else if(product.getQuantity() < amount)
+            {
+                System.out.println("ERROR: Unable to sell " + amount + " of " 
+                + product + " because it exceeds the product stock level of "
+                + product.getQuantity());
+            }
             else
             {
-                System.out.println("The Product: " + product.getName() + 
-                "is out of stock");
+                System.out.println("ERROR: The Product: " + product.getName() + 
+                " is out of stock");
             }
         }
         else
@@ -118,7 +141,7 @@ public class StockList
     }
 
     /**
-     * Print details of the given product. If found,
+     * Print details of the specified product. If found,
      * its name and stock quantity will be shown.
      * @param id The ID of the product to look for.
      */
@@ -136,7 +159,7 @@ public class StockList
      * Print out each product in the stock
      * in the order they are in the stock list
      */
-    public void print()
+    public void printAllStock()
     {
         printHeading();
         
@@ -151,8 +174,8 @@ public class StockList
     public void printHeading()
     {
         System.out.println();
-        System.out.println(" Leighton's Tech Stock List");
-        System.out.println(" ====================");
+        System.out.println(" Leighton's Tech Store | Stock List");
+        System.out.println(" ==================================");
         System.out.println();
     }
 }

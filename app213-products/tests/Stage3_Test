@@ -1,0 +1,95 @@
+StockList leightonStockList = new StockList();
+Product grandTheftAuto = new Product(001, "Grand Theft Auto V");
+Product crossFire = new Product(002, "CrossFire");
+Product fortnite = new Product(003, "Fortnite");
+Product leagueOfLegends = new Product(004, "League of Legends");
+Product forzaHorizon = new Product(005, "Forza Horizon 5");
+Product payday = new Product(006, "Payday 2");
+Product fifa = new Product(007, "Fifa 2022");
+Product rocketLeague = new Product(8, "Rocket League");
+Product watchDogs = new Product(9, "WatchDogs Legion");
+Product needForSpeed = new Product(10, "Need for Speed Heat");
+leightonStockList.add(grandTheftAuto);
+leightonStockList.add(crossFire);
+leightonStockList.add(fortnite);
+leightonStockList.add(leagueOfLegends);
+leightonStockList.add(forzaHorizon);
+leightonStockList.add(payday);
+leightonStockList.add(fifa);
+leightonStockList.add(rocketLeague);
+leightonStockList.add(watchDogs);
+leightonStockList.add(needForSpeed);
+leightonStockList.printAllStock();
+
+ Leighton's Tech Store | Stock List
+ ==================================
+
+ ID 1: Grand Theft Auto V stock level: 0
+ ID 2: CrossFire stock level: 0
+ ID 3: Fortnite stock level: 0
+ ID 4: League of Legends stock level: 0
+ ID 5: Forza Horizon 5 stock level: 0
+ ID 6: Payday 2 stock level: 0
+ ID 7: Fifa 2022 stock level: 0
+ ID 8: Rocket League stock level: 0
+ ID 9: WatchDogs Legion stock level: 0
+ ID 10: Need for Speed Heat stock level: 0
+
+leightonStockList.buyProduct(001);
+Bought 1 of Product: Grand Theft Auto V
+leightonStockList.buyProduct(002, 53);
+Bought 53 of Product: CrossFire
+leightonStockList.buyProduct(003, 23);
+Bought 23 of Product: Fortnite
+leightonStockList.buyProduct(004);
+Bought 1 of Product: League of Legends
+leightonStockList.buyProduct(005, 236);
+Bought 236 of Product: Forza Horizon 5
+leightonStockList.buyProduct(006);
+Bought 1 of Product: Payday 2
+leightonStockList.buyProduct(007);
+Bought 1 of Product: Fifa 2022
+leightonStockList.buyProduct(8, 128);
+Bought 128 of Product: Rocket League
+leightonStockList.buyProduct(9, 2);
+Bought 2 of Product: WatchDogs Legion
+leightonStockList.buyProduct(10, 1);
+Bought 1 of Product: Need for Speed Heat
+leightonStockList.sellProduct(10);
+Sold 1 of Product: Need for Speed Heat
+leightonStockList.sellProduct(9, 3);
+ERROR: Unable to sell 3 of  ID 9: WatchDogs Legion stock level: 2 because it exceeds the product stock level of 2
+leightonStockList.buyProduct(8, 600);
+Bought 600 of Product: Rocket League
+leightonStockList.sellProduct(8);
+Sold 1 of Product: Rocket League
+leightonStockList.sellProduct(007);
+Sold 1 of Product: Fifa 2022
+leightonStockList.sellProduct(006, 2);
+ERROR: Unable to sell 2 of  ID 6: Payday 2 stock level: 1 because it exceeds the product stock level of 1
+leightonStockList.sellProduct(005);
+Sold 1 of Product: Forza Horizon 5
+leightonStockList.sellProduct(004, 2);
+ERROR: Unable to sell 2 of  ID 4: League of Legends stock level: 1 because it exceeds the product stock level of 1
+leightonStockList.sellProduct(003);
+Sold 1 of Product: Fortnite
+leightonStockList.sellProduct(002);
+Sold 1 of Product: CrossFire
+leightonStockList.sellProduct(001);
+Sold 1 of Product: Grand Theft Auto V
+leightonStockList.printAllStock();
+
+ Leighton's Tech Store | Stock List
+ ==================================
+
+ ID 1: Grand Theft Auto V stock level: 0
+ ID 2: CrossFire stock level: 52
+ ID 3: Fortnite stock level: 22
+ ID 4: League of Legends stock level: 1
+ ID 5: Forza Horizon 5 stock level: 235
+ ID 6: Payday 2 stock level: 1
+ ID 7: Fifa 2022 stock level: 0
+ ID 8: Rocket League stock level: 727
+ ID 9: WatchDogs Legion stock level: 2
+ ID 10: Need for Speed Heat stock level: 0
+

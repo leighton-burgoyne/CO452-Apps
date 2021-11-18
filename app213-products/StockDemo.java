@@ -1,4 +1,4 @@
-
+import java.util.Random; // Reserved for future expansion. 
 /**
  * Demonstrate the StockManager and Product classes.
  * The demonstration becomes properly functional as
@@ -11,6 +11,8 @@ public class StockDemo
 {
     // The stock manager.
     private StockList stock;
+    
+    private Random generatedStock = new Random(); // Reserved for future expansion.
 
     /**
      * Create a StockManager and populate it with at least
@@ -48,23 +50,41 @@ public class StockDemo
     {
         // Show details of all of the products before delivery.
         
-        stock.print();
+        stock.printAllStock();
 
-        buyProducts(); // Buy Products Function
-        stock.print(); // Print the Stock List
+        buyProductsDemo(); // Buy Products Function
+        stock.printAllStock(); // Print the Stock List
 
-        sellProducts(); // Sell Products Function
-        stock.print(); // Print the Stock List        
+        sellProductsDemo(); // Sell Products Function
+        stock.printAllStock(); // Print the Stock List        
     }
     
-    private void buyProducts()
+    private void buyProductsDemo()
     
     {
-        stock.buyProduct(101, 500); // Buy Product 101 as 500
+        stock.buyProduct(101, 10); // Buy Product 101 in 10 quantity
+        stock.buyProduct(102, 46); // Buy Product 102 in 46 quantity
+        stock.buyProduct(103, 78); // Buy Product 103 in 78 quantity
+        stock.buyProduct(104, 92); // Buy Product 104 in 92 quantity
+        stock.buyProduct(105, 13); // Buy Product 105 in 13 quantity
+        stock.buyProduct(106, 19); // Buy Product 106 in 19 quantity
+        stock.buyProduct(107, 41); // Buy Product 107 in 41 quantity
+        stock.buyProduct(108, 33); // Buy Product 108 in 33 quantity
+        stock.buyProduct(109, 79); // Buy Product 109 in 79 quantity
+        stock.buyProduct(110, 57); // Buy Product 110 in 57 quantity
     }
 
-    private void sellProducts()
+    private void sellProductsDemo()
     {
-        // sellProducts()
+        stock.sellProduct(101, 5);  // Sell Product 101 in 5 quantity (Normal)
+        stock.sellProduct(102, 49); // Sell Product 102 in 49 quantity (Erroneous)
+        stock.sellProduct(103, 90); // Sell Product 103 in 90 quantity (Erroneous)
+        stock.sellProduct(104, 20); // Sell Product 104 in 20 quantity (Normal)
+        stock.sellProduct(105, 10); // Sell Product 105 in 10 quantity (Normal)
+        stock.sellProduct(106, 9);  // Sell Product 106 in 9 quantity (Normal)
+        stock.sellProduct(107, 100);// Sell Product 107 in 100 quantity (Erroneous)  
+        stock.sellProduct(108, 33); // Sell Product 108 in 33 quantity (Boundary)
+        stock.sellProduct(109, 43); // Sell Product 109 in 43 quantity (Normal)
+        stock.sellProduct(110, 57); // Sell Product 110 in 57 quantity (Boundary)
     }    
 }

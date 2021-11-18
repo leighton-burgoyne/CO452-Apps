@@ -1,0 +1,132 @@
+StockDemo leightonStockDemo = new StockDemo();
+
+ Leighton's Tech Store | Stock List
+ ==================================
+
+ ID 101: Steelseries Apex Keyboard stock level: 0
+ ID 102: Airpods Pro with Charging Case stock level: 0
+ ID 103: 32GB SanDisk USB Drive stock level: 0
+ ID 104: Razer Gaming Mouse stock level: 0
+ ID 105: Apple iPhone 13 Pro Max 256GB stock level: 0
+ ID 106: Google Pixel 6 Pro 128GB stock level: 0
+ ID 107: Lenovo Gaming Laptop Ryzen 5 8GB RAM 256GB SSD stock level: 0
+ ID 108: Dell 27 Inch Monitor 1920x1080 60Hz stock level: 0
+ ID 109: USB-C Charging Cable 2M stock level: 0
+ ID 110: Apple Lightning Cable 1M stock level: 0
+
+Bought 100 of Product: Steelseries Apex Keyboard
+Bought 90 of Product: Airpods Pro with Charging Case
+Bought 80 of Product: 32GB SanDisk USB Drive
+Bought 70 of Product: Razer Gaming Mouse
+Bought 60 of Product: Apple iPhone 13 Pro Max 256GB
+Bought 50 of Product: Google Pixel 6 Pro 128GB
+Bought 40 of Product: Lenovo Gaming Laptop Ryzen 5 8GB RAM 256GB SSD
+Bought 30 of Product: Dell 27 Inch Monitor 1920x1080 60Hz
+Bought 20 of Product: USB-C Charging Cable 2M
+Bought 10 of Product: Apple Lightning Cable 1M
+
+ Leighton's Tech Store | Stock List
+ ==================================
+
+ ID 101: Steelseries Apex Keyboard stock level: 100
+ ID 102: Airpods Pro with Charging Case stock level: 90
+ ID 103: 32GB SanDisk USB Drive stock level: 80
+ ID 104: Razer Gaming Mouse stock level: 70
+ ID 105: Apple iPhone 13 Pro Max 256GB stock level: 60
+ ID 106: Google Pixel 6 Pro 128GB stock level: 50
+ ID 107: Lenovo Gaming Laptop Ryzen 5 8GB RAM 256GB SSD stock level: 40
+ ID 108: Dell 27 Inch Monitor 1920x1080 60Hz stock level: 30
+ ID 109: USB-C Charging Cable 2M stock level: 20
+ ID 110: Apple Lightning Cable 1M stock level: 10
+
+Sold 100 of Product: Steelseries Apex Keyboard
+Sold 90 of Product: Airpods Pro with Charging Case
+Sold 80 of Product: 32GB SanDisk USB Drive
+Sold 70 of Product: Razer Gaming Mouse
+Sold 60 of Product: Apple iPhone 13 Pro Max 256GB
+Sold 50 of Product: Google Pixel 6 Pro 128GB
+Sold 40 of Product: Lenovo Gaming Laptop Ryzen 5 8GB RAM 256GB SSD
+Sold 30 of Product: Dell 27 Inch Monitor 1920x1080 60Hz
+Sold 20 of Product: USB-C Charging Cable 2M
+Sold 10 of Product: Apple Lightning Cable 1M
+
+ Leighton's Tech Store | Stock List
+ ==================================
+
+ ID 101: Steelseries Apex Keyboard stock level: 0
+ ID 102: Airpods Pro with Charging Case stock level: 0
+ ID 103: 32GB SanDisk USB Drive stock level: 0
+ ID 104: Razer Gaming Mouse stock level: 0
+ ID 105: Apple iPhone 13 Pro Max 256GB stock level: 0
+ ID 106: Google Pixel 6 Pro 128GB stock level: 0
+ ID 107: Lenovo Gaming Laptop Ryzen 5 8GB RAM 256GB SSD stock level: 0
+ ID 108: Dell 27 Inch Monitor 1920x1080 60Hz stock level: 0
+ ID 109: USB-C Charging Cable 2M stock level: 0
+ ID 110: Apple Lightning Cable 1M stock level: 0
+
+StockDemo leightonStockDemo = new StockDemo();
+
+ Leighton's Tech Store | Stock List
+ ==================================
+
+ ID 101: Steelseries Apex Keyboard stock level: 0
+ ID 102: Airpods Pro with Charging Case stock level: 0
+ ID 103: 32GB SanDisk USB Drive stock level: 0
+ ID 104: Razer Gaming Mouse stock level: 0
+ ID 105: Apple iPhone 13 Pro Max 256GB stock level: 0
+ ID 106: Google Pixel 6 Pro 128GB stock level: 0
+ ID 107: Lenovo Gaming Laptop Ryzen 5 8GB RAM 256GB SSD stock level: 0
+ ID 108: Dell 27 Inch Monitor 1920x1080 60Hz stock level: 0
+ ID 109: USB-C Charging Cable 2M stock level: 0
+ ID 110: Apple Lightning Cable 1M stock level: 0
+
+Bought 10 of Product: Steelseries Apex Keyboard
+Bought 46 of Product: Airpods Pro with Charging Case
+Bought 78 of Product: 32GB SanDisk USB Drive
+Bought 92 of Product: Razer Gaming Mouse
+Bought 13 of Product: Apple iPhone 13 Pro Max 256GB
+Bought 19 of Product: Google Pixel 6 Pro 128GB
+Bought 41 of Product: Lenovo Gaming Laptop Ryzen 5 8GB RAM 256GB SSD
+Bought 33 of Product: Dell 27 Inch Monitor 1920x1080 60Hz
+Bought 79 of Product: USB-C Charging Cable 2M
+Bought 57 of Product: Apple Lightning Cable 1M
+
+ Leighton's Tech Store | Stock List
+ ==================================
+
+ ID 101: Steelseries Apex Keyboard stock level: 10
+ ID 102: Airpods Pro with Charging Case stock level: 46
+ ID 103: 32GB SanDisk USB Drive stock level: 78
+ ID 104: Razer Gaming Mouse stock level: 92
+ ID 105: Apple iPhone 13 Pro Max 256GB stock level: 13
+ ID 106: Google Pixel 6 Pro 128GB stock level: 19
+ ID 107: Lenovo Gaming Laptop Ryzen 5 8GB RAM 256GB SSD stock level: 41
+ ID 108: Dell 27 Inch Monitor 1920x1080 60Hz stock level: 33
+ ID 109: USB-C Charging Cable 2M stock level: 79
+ ID 110: Apple Lightning Cable 1M stock level: 57
+
+Sold 5 of Product: Steelseries Apex Keyboard
+ERROR: Unable to sell 49 of  ID 102: Airpods Pro with Charging Case stock level: 46 because it exceeds the product stock level of 46
+ERROR: Unable to sell 90 of  ID 103: 32GB SanDisk USB Drive stock level: 78 because it exceeds the product stock level of 78
+Sold 20 of Product: Razer Gaming Mouse
+Sold 10 of Product: Apple iPhone 13 Pro Max 256GB
+Sold 9 of Product: Google Pixel 6 Pro 128GB
+ERROR: Unable to sell 100 of  ID 107: Lenovo Gaming Laptop Ryzen 5 8GB RAM 256GB SSD stock level: 41 because it exceeds the product stock level of 41
+Sold 33 of Product: Dell 27 Inch Monitor 1920x1080 60Hz
+Sold 43 of Product: USB-C Charging Cable 2M
+Sold 57 of Product: Apple Lightning Cable 1M
+
+ Leighton's Tech Store | Stock List
+ ==================================
+
+ ID 101: Steelseries Apex Keyboard stock level: 5
+ ID 102: Airpods Pro with Charging Case stock level: 46
+ ID 103: 32GB SanDisk USB Drive stock level: 78
+ ID 104: Razer Gaming Mouse stock level: 72
+ ID 105: Apple iPhone 13 Pro Max 256GB stock level: 3
+ ID 106: Google Pixel 6 Pro 128GB stock level: 10
+ ID 107: Lenovo Gaming Laptop Ryzen 5 8GB RAM 256GB SSD stock level: 41
+ ID 108: Dell 27 Inch Monitor 1920x1080 60Hz stock level: 0
+ ID 109: USB-C Charging Cable 2M stock level: 36
+ ID 110: Apple Lightning Cable 1M stock level: 0
+
