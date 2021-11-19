@@ -1,0 +1,13 @@
+StockList leightonStockList = new StockList();
+Product rocketLeaguePC = new Product(101, "Rocket League PC Edition");
+Product rocketLeagueXbox = new Product(102, "Rocket League Xbox Edition");
+Product watchdogsLegion = new Product(103, "WatchDogs Legion");
+Product needForSpeed = new Product(104, "Need For Speed");
+leightonStockList.add(rocketLeaguePC);
+leightonStockList.add(rocketLeagueXbox);
+leightonStockList.add(watchdogsLegion);
+leightonStockList.add(needForSpeed);
+leightonStockList.searchProduct("Rocket League");
+ ID 101: Rocket League PC Edition stock level: 0
+ ID 102: Rocket League Xbox Edition stock level: 0
+The search returned 2 query
