@@ -84,6 +84,28 @@ public class StockList
     return null;
     }
     
+    /** Search for Product by a Phrase
+     * 
+     */
+    public void searchProduct (String phrase)
+    {
+        int count = 0;
+        
+        for(Product product : stock)
+        {
+            if(product.getName().contains(phrase))
+            {
+                System.out.println(product);
+                count += 1;
+            }
+            else
+            {
+                System.out.println("Not Found");
+            }
+            System.out.println("The search returned " + count + " query");
+        }
+    }
+    
     /** Sell one of the given product.
      *  Show the before and after status of the product
      *  @param id The ID of the product being sold.
