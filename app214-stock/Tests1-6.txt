@@ -1,0 +1,156 @@
+C:\Users\Leighton\.jdks\openjdk-17.0.1\bin\java.exe -javaagent:C:\Users\Leighton\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\213.5744.223\lib\idea_rt.jar=55306:C:\Users\Leighton\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\213.5744.223\bin -Dfile.encoding=UTF-8 -classpath "C:\Repos\BlueJ-Apps\app214-stock\out\production\app214-stock (IJ Version)" Main
+********************************
+  App21-04: Stock Application   
+      by Leighton Burgoyne      
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a Quantity of Products
+    Sell:       Sell a Quantity of Products
+    Search:     Search for a Product by Name
+    Stock:      Check Low Stock Levels
+    Print:      Print all products
+    Demo:       Bulk Create 10 Products
+    Quit:       Quit the program
+
+Please enter your Menu option > demo
+Option Selected: Demo Mode (Bulk Add 10 Products)
+
+********************************
+  App21-04: Stock Application   
+      by Leighton Burgoyne      
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a Quantity of Products
+    Sell:       Sell a Quantity of Products
+    Search:     Search for a Product by Name
+    Stock:      Check Low Stock Levels
+    Print:      Print all products
+    Demo:       Bulk Create 10 Products
+    Quit:       Quit the program
+
+Please enter your Menu option > print
+Option Selected: Print Stock
+
+ Leighton's Tech Store | Stock List
+ ==================================
+
+ ID: 101 | Steelseries Apex Keyboard | Stock Level: 0
+ ID: 102 | Airpods Pro with Charging Case | Stock Level: 0
+ ID: 103 | 32GB SanDisk USB Drive | Stock Level: 0
+ ID: 104 | Razer Gaming Mouse | Stock Level: 0
+ ID: 105 | Apple iPhone 13 Pro Max 256GB | Stock Level: 0
+ ID: 106 | Google Pixel 6 Pro 128GB | Stock Level: 0
+ ID: 107 | Lenovo Gaming Laptop Ryzen 5 8GB RAM 256GB SSD | Stock Level: 0
+ ID: 108 | Dell 27 Inch Monitor 1920x1080 60Hz | Stock Level: 0
+ ID: 109 | USB-C Charging Cable 2M | Stock Level: 0
+ ID: 110 | Apple Lightning Cable 1M | Stock Level: 0
+
+********************************
+  App21-04: Stock Application   
+      by Leighton Burgoyne      
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a Quantity of Products
+    Sell:       Sell a Quantity of Products
+    Search:     Search for a Product by Name
+    Stock:      Check Low Stock Levels
+    Print:      Print all products
+    Demo:       Bulk Create 10 Products
+    Quit:       Quit the program
+
+Please enter your Menu option > add
+Option Selected: Add Product
+Enter Product ID to Create: 
+111
+Enter Product Name to Create: Logitech Wired Mouse
+Product 111: Logitech Wired Mouse has been added.
+
+********************************
+  App21-04: Stock Application   
+      by Leighton Burgoyne      
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a Quantity of Products
+    Sell:       Sell a Quantity of Products
+    Search:     Search for a Product by Name
+    Stock:      Check Low Stock Levels
+    Print:      Print all products
+    Demo:       Bulk Create 10 Products
+    Quit:       Quit the program
+
+Please enter your Menu option > add
+Option Selected: Add Product
+Enter Product ID to Create: 
+101
+Enter Product Name to Create: Xbox One
+ERROR: Product already exists under this ID, please amend your input.
+
+********************************
+  App21-04: Stock Application   
+      by Leighton Burgoyne      
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a Quantity of Products
+    Sell:       Sell a Quantity of Products
+    Search:     Search for a Product by Name
+    Stock:      Check Low Stock Levels
+    Print:      Print all products
+    Demo:       Bulk Create 10 Products
+    Quit:       Quit the program
+
+Please enter your Menu option > remove
+Option Selected: Remove Product
+Enter Product ID to Remove: 
+111
+Product with ID 111 has been removed.
+
+********************************
+  App21-04: Stock Application   
+      by Leighton Burgoyne      
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a Quantity of Products
+    Sell:       Sell a Quantity of Products
+    Search:     Search for a Product by Name
+    Stock:      Check Low Stock Levels
+    Print:      Print all products
+    Demo:       Bulk Create 10 Products
+    Quit:       Quit the program
+
+Please enter your Menu option > remove
+Option Selected: Remove Product
+Enter Product ID to Remove: 
+199
+ERROR: The Product cannot be found, please check your input.
+
+********************************
+  App21-04: Stock Application   
+      by Leighton Burgoyne      
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a Quantity of Products
+    Sell:       Sell a Quantity of Products
+    Search:     Search for a Product by Name
+    Stock:      Check Low Stock Levels
+    Print:      Print all products
+    Demo:       Bulk Create 10 Products
+    Quit:       Quit the program
+
+Please enter your Menu option > quit
+Option Selected: Quit Application
+
+Process finished with exit code 0

@@ -1,0 +1,286 @@
+C:\Users\Leighton\.jdks\openjdk-17.0.1\bin\java.exe -javaagent:C:\Users\Leighton\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\213.5744.223\lib\idea_rt.jar=58602:C:\Users\Leighton\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\213.5744.223\bin -Dfile.encoding=UTF-8 -classpath "C:\Repos\BlueJ-Apps\app214-stock\out\production\app214-stock (IJ Version)" Main
+********************************
+  App21-04: Stock Application   
+      by Leighton Burgoyne      
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a Quantity of Products
+    Sell:       Sell a Quantity of Products
+    Search:     Search for a Product by Name
+    Stock:      Check Low Stock Levels
+    Restock:    Auto Restock all Low Products
+    Print:      Print all products
+    Demo:       Bulk Create 10 Products
+    Quit:       Quit the program
+
+Please enter your Menu option > demo
+Option Selected: Demo Mode (Bulk Add 10 Products)
+********************************
+  App21-04: Stock Application   
+      by Leighton Burgoyne      
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a Quantity of Products
+    Sell:       Sell a Quantity of Products
+    Search:     Search for a Product by Name
+    Stock:      Check Low Stock Levels
+    Restock:    Auto Restock all Low Products
+    Print:      Print all products
+    Demo:       Bulk Create 10 Products
+    Quit:       Quit the program
+
+Please enter your Menu option > print
+Option Selected: Print Stock
+
+ Leighton's Tech Store | Stock List
+ ==================================
+
+ ID: 101 | Steelseries Apex Keyboard | Stock Level: 0
+ ID: 102 | Airpods Pro with Charging Case | Stock Level: 0
+ ID: 103 | 32GB SanDisk USB Drive | Stock Level: 0
+ ID: 104 | Razer Gaming Mouse | Stock Level: 0
+ ID: 105 | Apple iPhone 13 Pro Max 256GB | Stock Level: 0
+ ID: 106 | Google Pixel 6 Pro 128GB | Stock Level: 0
+ ID: 107 | Lenovo Gaming Laptop Ryzen 5 8GB RAM 256GB SSD | Stock Level: 0
+ ID: 108 | Dell 27 Inch Monitor 1920x1080 60Hz | Stock Level: 0
+ ID: 109 | USB-C Charging Cable 2M | Stock Level: 0
+ ID: 110 | Apple Lightning Cable 1M | Stock Level: 0
+
+********************************
+  App21-04: Stock Application   
+      by Leighton Burgoyne      
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a Quantity of Products
+    Sell:       Sell a Quantity of Products
+    Search:     Search for a Product by Name
+    Stock:      Check Low Stock Levels
+    Restock:    Auto Restock all Low Products
+    Print:      Print all products
+    Demo:       Bulk Create 10 Products
+    Quit:       Quit the program
+
+Please enter your Menu option > buy
+Option Selected: Buy Products
+Enter Product ID to Buy: 
+101
+Enter Quantity to Buy: 
+4
+Bought 4 of Product: Steelseries Apex Keyboard
+Product 101 has been successfully bought in Quantity 4
+
+********************************
+  App21-04: Stock Application   
+      by Leighton Burgoyne      
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a Quantity of Products
+    Sell:       Sell a Quantity of Products
+    Search:     Search for a Product by Name
+    Stock:      Check Low Stock Levels
+    Restock:    Auto Restock all Low Products
+    Print:      Print all products
+    Demo:       Bulk Create 10 Products
+    Quit:       Quit the program
+
+Please enter your Menu option > print
+Option Selected: Print Stock
+
+ Leighton's Tech Store | Stock List
+ ==================================
+
+ ID: 101 | Steelseries Apex Keyboard | Stock Level: 4
+ ID: 102 | Airpods Pro with Charging Case | Stock Level: 0
+ ID: 103 | 32GB SanDisk USB Drive | Stock Level: 0
+ ID: 104 | Razer Gaming Mouse | Stock Level: 0
+ ID: 105 | Apple iPhone 13 Pro Max 256GB | Stock Level: 0
+ ID: 106 | Google Pixel 6 Pro 128GB | Stock Level: 0
+ ID: 107 | Lenovo Gaming Laptop Ryzen 5 8GB RAM 256GB SSD | Stock Level: 0
+ ID: 108 | Dell 27 Inch Monitor 1920x1080 60Hz | Stock Level: 0
+ ID: 109 | USB-C Charging Cable 2M | Stock Level: 0
+ ID: 110 | Apple Lightning Cable 1M | Stock Level: 0
+
+********************************
+  App21-04: Stock Application   
+      by Leighton Burgoyne      
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a Quantity of Products
+    Sell:       Sell a Quantity of Products
+    Search:     Search for a Product by Name
+    Stock:      Check Low Stock Levels
+    Restock:    Auto Restock all Low Products
+    Print:      Print all products
+    Demo:       Bulk Create 10 Products
+    Quit:       Quit the program
+
+Please enter your Menu option > sell
+Option Selected: Sell Products
+Enter Product ID to Sell: 
+101
+Enter Quantity to Sell: 
+4
+Sold 4 of Product: Steelseries Apex Keyboard
+Product 101 has been successfully sold in Quantity 4
+********************************
+  App21-04: Stock Application   
+      by Leighton Burgoyne      
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a Quantity of Products
+    Sell:       Sell a Quantity of Products
+    Search:     Search for a Product by Name
+    Stock:      Check Low Stock Levels
+    Restock:    Auto Restock all Low Products
+    Print:      Print all products
+    Demo:       Bulk Create 10 Products
+    Quit:       Quit the program
+
+Please enter your Menu option > print
+Option Selected: Print Stock
+
+ Leighton's Tech Store | Stock List
+ ==================================
+
+ ID: 101 | Steelseries Apex Keyboard | Stock Level: 0
+ ID: 102 | Airpods Pro with Charging Case | Stock Level: 0
+ ID: 103 | 32GB SanDisk USB Drive | Stock Level: 0
+ ID: 104 | Razer Gaming Mouse | Stock Level: 0
+ ID: 105 | Apple iPhone 13 Pro Max 256GB | Stock Level: 0
+ ID: 106 | Google Pixel 6 Pro 128GB | Stock Level: 0
+ ID: 107 | Lenovo Gaming Laptop Ryzen 5 8GB RAM 256GB SSD | Stock Level: 0
+ ID: 108 | Dell 27 Inch Monitor 1920x1080 60Hz | Stock Level: 0
+ ID: 109 | USB-C Charging Cable 2M | Stock Level: 0
+ ID: 110 | Apple Lightning Cable 1M | Stock Level: 0
+
+********************************
+  App21-04: Stock Application   
+      by Leighton Burgoyne      
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a Quantity of Products
+    Sell:       Sell a Quantity of Products
+    Search:     Search for a Product by Name
+    Stock:      Check Low Stock Levels
+    Restock:    Auto Restock all Low Products
+    Print:      Print all products
+    Demo:       Bulk Create 10 Products
+    Quit:       Quit the program
+
+Please enter your Menu option > search
+Option Selected: Search Products
+Enter Search Term: Apple
+
+ ID: 105 | Apple iPhone 13 Pro Max 256GB | Stock Level: 0
+ ID: 110 | Apple Lightning Cable 1M | Stock Level: 0
+
+The search returned 2 query(s)
+
+********************************
+  App21-04: Stock Application   
+      by Leighton Burgoyne      
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a Quantity of Products
+    Sell:       Sell a Quantity of Products
+    Search:     Search for a Product by Name
+    Stock:      Check Low Stock Levels
+    Restock:    Auto Restock all Low Products
+    Print:      Print all products
+    Demo:       Bulk Create 10 Products
+    Quit:       Quit the program
+
+Please enter your Menu option > stock
+Option Selected: Stock Check
+
+ Leighton's Tech Store | Low Stock 
+ ================================= 
+
+ ID: 101 | Steelseries Apex Keyboard | Stock Level: 0
+ ID: 102 | Airpods Pro with Charging Case | Stock Level: 0
+ ID: 103 | 32GB SanDisk USB Drive | Stock Level: 0
+ ID: 104 | Razer Gaming Mouse | Stock Level: 0
+ ID: 105 | Apple iPhone 13 Pro Max 256GB | Stock Level: 0
+ ID: 106 | Google Pixel 6 Pro 128GB | Stock Level: 0
+ ID: 107 | Lenovo Gaming Laptop Ryzen 5 8GB RAM 256GB SSD | Stock Level: 0
+ ID: 108 | Dell 27 Inch Monitor 1920x1080 60Hz | Stock Level: 0
+ ID: 109 | USB-C Charging Cable 2M | Stock Level: 0
+ ID: 110 | Apple Lightning Cable 1M | Stock Level: 0
+
+********************************
+  App21-04: Stock Application   
+      by Leighton Burgoyne      
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a Quantity of Products
+    Sell:       Sell a Quantity of Products
+    Search:     Search for a Product by Name
+    Stock:      Check Low Stock Levels
+    Restock:    Auto Restock all Low Products
+    Print:      Print all products
+    Demo:       Bulk Create 10 Products
+    Quit:       Quit the program
+
+Please enter your Menu option > restock
+Option Selected: Restock all Low Stock
+Product 101 : Steelseries Apex Keyboard restocked to minimum quantity
+Product 102 : Airpods Pro with Charging Case restocked to minimum quantity
+Product 103 : 32GB SanDisk USB Drive restocked to minimum quantity
+Product 104 : Razer Gaming Mouse restocked to minimum quantity
+Product 105 : Apple iPhone 13 Pro Max 256GB restocked to minimum quantity
+Product 106 : Google Pixel 6 Pro 128GB restocked to minimum quantity
+Product 107 : Lenovo Gaming Laptop Ryzen 5 8GB RAM 256GB SSD restocked to minimum quantity
+Product 108 : Dell 27 Inch Monitor 1920x1080 60Hz restocked to minimum quantity
+Product 109 : USB-C Charging Cable 2M restocked to minimum quantity
+Product 110 : Apple Lightning Cable 1M restocked to minimum quantity
+
+********************************
+  App21-04: Stock Application   
+      by Leighton Burgoyne      
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a Quantity of Products
+    Sell:       Sell a Quantity of Products
+    Search:     Search for a Product by Name
+    Stock:      Check Low Stock Levels
+    Restock:    Auto Restock all Low Products
+    Print:      Print all products
+    Demo:       Bulk Create 10 Products
+    Quit:       Quit the program
+
+Please enter your Menu option > print
+Option Selected: Print Stock
+
+ Leighton's Tech Store | Stock List
+ ==================================
+
+ ID: 101 | Steelseries Apex Keyboard | Stock Level: 6
+ ID: 102 | Airpods Pro with Charging Case | Stock Level: 6
+ ID: 103 | 32GB SanDisk USB Drive | Stock Level: 6
+ ID: 104 | Razer Gaming Mouse | Stock Level: 6
+ ID: 105 | Apple iPhone 13 Pro Max 256GB | Stock Level: 6
+ ID: 106 | Google Pixel 6 Pro 128GB | Stock Level: 6
+ ID: 107 | Lenovo Gaming Laptop Ryzen 5 8GB RAM 256GB SSD | Stock Level: 6
+ ID: 108 | Dell 27 Inch Monitor 1920x1080 60Hz | Stock Level: 6
+ ID: 109 | USB-C Charging Cable 2M | Stock Level: 6
+ ID: 110 | Apple Lightning Cable 1M | Stock Level: 6
