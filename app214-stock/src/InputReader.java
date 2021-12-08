@@ -1,13 +1,11 @@
 import java.util.Scanner;
 
 /**
- * InputReader reads typed text input from the standard text terminal. 
+ * InputReader reads typed text input from the standard text terminal and assists with validation of this data.
  * The text typed by a user is returned.
  * 
- * @author     Michael Kölling and David J. Barnes
- * @version    0.1 (2016.02.29)
- * 
- * Modified by Derek Peacock 13/12/2020
+ * @author     Michael Kölling & David J. Barnes (1.0), Modified by Derek Peacock (2.0), Modified by Leighton Burgoyne (3.0)
+ * @version    1.0 (29/02/2016), 2.0 (13/12/2020),  3.0 (26/11/2021)
  */
 public class InputReader
 {
@@ -29,12 +27,14 @@ public class InputReader
      */
     public String getString(String prompt)
     {
+        reader = new Scanner(System.in);
+
         String inputLine = null;
         boolean isValid = false;
         
         while(!isValid)
         {
-            System.out.print(prompt);         // print prompt
+            System.out.print(prompt); // print prompt
             inputLine = reader.nextLine();
             
             if(!inputLine.isEmpty())
@@ -47,13 +47,14 @@ public class InputReader
     }
     
     /**
-     * Read a the next int from standard imput (the text terminal),
-     * and return it as an interger.
+     * Read the next int from standard input (the text terminal), and return it as an integer.
      * 
      * @return Integer typed by user.
      */
     public int getInt(String prompt)
     {
+        reader = new Scanner(System.in);
+
         int number = 0;
         boolean isValid = false;
         
