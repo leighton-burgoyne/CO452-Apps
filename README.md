@@ -10,6 +10,6 @@ This template is based on Java application described in the book *Objects First 
 
 # Removed Projects
 - App21-05: Songs (TCA) - Removed from BNU Curriculum
-- 
+ 
 # Pending Projects
 - App21-06: Zuul
