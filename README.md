@@ -7,3 +7,9 @@ This template is based on Java application described in the book *Objects First 
 - App21-02: Student Grades
 - App21-03: Products
 - App21-04: Stock
+
+# Removed Projects
+- App21-05: Songs (TCA) - Removed from BNU Curriculum
+- 
+# Pending Projects
+- App21-06: Zuul
