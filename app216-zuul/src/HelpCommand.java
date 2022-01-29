@@ -1,9 +1,10 @@
 import java.util.ArrayList;
 /**
- * Write a description of class HelpCommand here.
+ * The Class HelpCommand provides a range of useful help and support information to a Player if they are unable to
+ * play the game correctly, or are unsure what to do.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Modified by Leighton Burgoyne
+ * @version v1.0 05/01/2022
  */
 public class HelpCommand extends ZuulCommand
 {
@@ -19,20 +20,17 @@ public class HelpCommand extends ZuulCommand
      */
     public void execute()
     {
-        System.out.println(" You are lost. You are alone. You wander");
-        System.out.println(" around at the university.");        
-        System.out.println();
-        System.out.println(" Your command words are:");
-        System.out.println();
-        
+        System.out.println("You are walking around the Prison looking for items that will lead you to find the Records wanted by the BBC for their Documentary.");
+        zuul.printInstructions();
+        System.out.println("Available Commands:");
         for(CommandWords command : CommandWords.values())
         {
-            System.out.println(" " + command.word + 
-                               "\t  : " + command.description);                        
+            System.out.println(command.word + ": \t" + command.description);
         }   
         System.out.println();
-        System.out.println(" e.g. go west, take gold");
+        System.out.println("e.g. go north, take keys, open notepad");
         System.out.println();
+        System.out.println("Your Current Location:");
         System.out.println(zuul.MAP.getCurrentLocation().getLongDescription());
     }
 }

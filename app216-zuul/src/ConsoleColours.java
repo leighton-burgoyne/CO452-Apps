@@ -1,9 +1,10 @@
 
 /**
- * Write a description of class ConsoleColours here.
+ * The ConsoleColours Class provides a range of colours which can be used within Console Text throughout the
+ * application to further improve the appearance of the application for the end user.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Modified by Leighton Burgoyne
+ * @version v1.0
  */
 public class ConsoleColours
 {
